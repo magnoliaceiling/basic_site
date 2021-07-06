@@ -60,12 +60,7 @@
     <input
       type="button"
       value="Change"
-      onclick="
-    gtag('consent', 'update', {
-  ad_storage: 'denied',
-  analytics_storage: 'granted'
-});
-    "
+      onclick="dataLayer.push({'event': 'c_update'});"
     />
   </body>
 </html>
